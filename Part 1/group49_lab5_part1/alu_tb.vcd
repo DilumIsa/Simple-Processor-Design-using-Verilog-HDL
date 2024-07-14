@@ -1,0 +1,90 @@
+$date
+	Wed Apr 10 23:55:55 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module alu_tb $end
+$var wire 8 ! RESULT [7:0] $end
+$var reg 8 " DATA1 [7:0] $end
+$var reg 8 # DATA2 [7:0] $end
+$var reg 3 $ SELECT [2:0] $end
+$scope module uut $end
+$var wire 8 % DATA1 [7:0] $end
+$var wire 8 & DATA2 [7:0] $end
+$var wire 3 ' SELECT [2:0] $end
+$var wire 8 ( or_result [7:0] $end
+$var wire 8 ) forward_result [7:0] $end
+$var wire 8 * and_result [7:0] $end
+$var wire 8 + add_result [7:0] $end
+$var reg 8 , RESULT [7:0] $end
+$scope module adder_unit_inst $end
+$var wire 8 - DATA1 [7:0] $end
+$var wire 8 . DATA2 [7:0] $end
+$var reg 8 / add_result [7:0] $end
+$upscope $end
+$scope module and_unit_inst $end
+$var wire 8 0 DATA1 [7:0] $end
+$var wire 8 1 DATA2 [7:0] $end
+$var reg 8 2 and_result [7:0] $end
+$upscope $end
+$scope module forward_unit_inst $end
+$var wire 8 3 DATA2 [7:0] $end
+$var reg 8 4 forward_result [7:0] $end
+$upscope $end
+$scope module or_unit_inst $end
+$var wire 8 5 DATA1 [7:0] $end
+$var wire 8 6 DATA2 [7:0] $end
+$var reg 8 7 or_result [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b11 7
+b10 6
+b1 5
+b10 4
+b10 3
+b0 2
+b10 1
+b1 0
+b11 /
+b10 .
+b1 -
+b10 ,
+b11 +
+b0 *
+b10 )
+b11 (
+b0 '
+b10 &
+b1 %
+b0 $
+b10 #
+b1 "
+b10 !
+$end
+#20
+b11 !
+b11 ,
+b1 $
+b1 '
+#40
+b0 !
+b0 ,
+b10 $
+b10 '
+#60
+b11 !
+b11 ,
+b11 $
+b11 '
+#80
